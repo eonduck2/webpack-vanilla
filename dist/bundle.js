@@ -10,23 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/add.module.js":
-/*!***************************!*\
-  !*** ./src/add.module.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./dist/add.module.js":
+/*!****************************!*\
+  !*** ./dist/add.module.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, exports) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((a, b) => {\r\n  return a + b;\r\n});\r\n\n\n//# sourceURL=webpack:///./src/add.module.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports[\"default\"] = void 0;\nvar _default = exports[\"default\"] = function _default(a, b) {\n  return a + b;\n};\n\n//# sourceURL=webpack:///./dist/add.module.js?");
 
 /***/ }),
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./dist/app.js":
+/*!*********************!*\
+  !*** ./dist/app.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add.module */ \"./src/add.module.js\");\n\r\n\r\nconsole.log((0,_add_module__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(1, 2));\r\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("\n\nvar _add = _interopRequireDefault(__webpack_require__(/*! ./add.module */ \"./dist/add.module.js\"));\nfunction _interopRequireDefault(e) { return e && e.__esModule ? e : { \"default\": e }; }\nconsole.log((0, _add[\"default\"])(1, 2));\n\n//# sourceURL=webpack:///./dist/app.js?");
 
 /***/ })
 
@@ -57,40 +57,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/app.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./dist/app.js");
 /******/ 	
 /******/ })()
 ;
