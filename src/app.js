@@ -1,3 +1,3 @@
 import addModule from "./add.module";
 
-addModule(1, 2);
+console.log(addModule(1, 2));
